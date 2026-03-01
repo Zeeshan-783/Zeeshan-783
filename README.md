@@ -1,23 +1,30 @@
 <!-- ════════════════════════════════════════════════════════════════════════════════════ -->
 <!-- ║                                                                                    ║ -->
-<!-- ║                         ZEESHAN KHALID - GITHUB PROFILE                           ║ -->
-<!-- ║                     MERN Stack | React Native | Automation Expert                  ║ -->
+<!-- ║                    ⭐ ZEESHAN KHALID - PREMIUM GITHUB PROFILE ⭐                  ║ -->
 <!-- ║                                                                                    ║ -->
 <!-- ════════════════════════════════════════════════════════════════════════════════════ -->
-<!-- Animated Header with Name Display -->
+<!-- ════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- ║                              🎨 EPIC HEADER                                       ║ -->
+<!-- ════════════════════════════════════════════════════════════════════════════════════ -->
+<!-- Header Option 1: Sliced Type with Gradient - MOST DRAMATIC -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=12,14,15,18,20&text=Zeeshan%20Khalid&fontSize=60&fontColor=ffffff&desc=MERN%20Stack%20Developer%20%7C%20React%20Native%20%7C%20Make.com%20Expert&descSize=16&descAlignY=75&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=sliced&color=gradient&customColorList=12,14,20,24,30&height=300&text=Zeeshan%20Khalid&fontSize=70&fontAlign=50&fontAlignY=45&animation=twinkling&desc=MERN%20Stack%20Developer%20%7C%20React%20Native%20%7C%20Automation%20Expert&descSize=18&descAlign=50&descAlignY=70&stroke=8b5cf6&strokeWidth=2" />
 </p>
-<!-- Profile Views & Availability Badges -->
+<!-- Alternative Header Option (Uncomment if you prefer waving): -->
+<!-- <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,25,27&height=280&text=Zeeshan%20Khalid&fontSize=65&fontAlign=50&fontAlignY=40&animation=fadeIn&desc=MERN%20Stack%20Developer%20%7C%20React%20Native%20%7C%20Make.com%20Expert&descSize=18&descAlign=50&descAlignY=70&fontColor=fff" />
+</p> -->
+<!-- Profile Views & Availability -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Zeeshan-783&label=PROFILE%20VIEWS&color=8b5cf6&style=for-the-badge&logo=eye" alt="Profile Views" />
   <img src="https://img.shields.io/badge/🚀%20Available%20for%20Freelance-8B5CF6?style=for-the-badge&logoColor=white" alt="Available" />
   <img src="https://img.shields.io/github/followers/Zeeshan-783?label=FOLLOWERS&color=8b5cf6&style=for-the-badge&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Zeeshan-783?label=STARS&color=8b5cf6&style=for-the-badge&logo=github" alt="Stars" />
 </p>
 <!-- Dynamic Typing Animation -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+Native+Mobile+Expert;Make.com+Automation+Specialist;Building+AI-Powered+Solutions" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=8B5CF6&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+Native+Mobile+Expert;Make.com+Automation+Specialist;Building+AI-Powered+Solutions;Open+to+Collaboration!" alt="Typing Animation" />
   </a>
 </p>
 <!-- ════════════════════════════════════════════════════════════════════════════════════ -->
@@ -323,7 +330,7 @@ Copy
 <!-- ║                              🦶 FOOTER                                            ║ -->
 <!-- ════════════════════════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,15,18,20&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,20,24,30&height=120&section=footer" />
 </p>
 <p align="center">
   <i>⚡ Building modern web & mobile experiences with cutting-edge technology ⚡</i>
