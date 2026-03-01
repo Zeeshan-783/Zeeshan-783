@@ -1,28 +1,31 @@
-<!-- Dynamic Gradient Header with Typing Effect -->
+<!-- Header with Name & Title Only -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8&height=230&section=header&text=Zeeshan%20Khalid&fontSize=52&fontColor=fff&desc=MERN%20%7C%20React%20Native%20%7C%20Make.com%20Automation&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,4,6,8&height=200&section=header&text=Zeeshan%20Khalid&fontSize=48&fontColor=fff&descAlignY=35&desc=" />
 </p>
 
-<!-- Profile Picture with Glowing Effect -->
+<!-- Clean Title Below -->
+<h3 align="center">MERN Stack Developer | React Native | Make.com Automation</h3>
+
+<!-- Profile Picture -->
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D03AQECafluy5RJTQ/profile-displayphoto-shrink_800_800/B4DZQby7IbHwAc-/0/1735633124409?e=1773878400&v=beta&t=hbF_uCiCsXhagumZuHLCgUwMQpzMIHoroi50qRY7YwM" width="160" height="160" style="border-radius: 50%; border: 4px solid #8b5cf6; box-shadow: 0 0 30px #8b5cf680; object-fit: cover;" />
+  <img src="https://media.licdn.com/dms/image/v2/D4D03AQECafluy5RJTQ/profile-displayphoto-shrink_800_800/B4DZQby7IbHwAc-/0/1735633124409?e=1773878400&v=beta&t=hbF_uCiCsXhagumZuHLCgUwMQpzMIHoroi50qRY7YwM" width="150" height="150" style="border-radius: 50%; border: 4px solid #8b5cf6; object-fit: cover;" />
 </p>
 
 <!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=700&color=8B5CF6&center=true&vCenter=true&width=600&lines=MERN+Stack+Developer;React+Native+Expert;Make.com+Automation+Specialist;Full-Stack+Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=700&color=8B5CF6&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;React+Native+Expert;Make.com+Automation+Specialist" alt="Typing SVG" />
 </p>
 
-<!-- Contact & Social Badges - Enhanced -->
+<!-- Contact Badges -->
 <p align="center">
   <a href="mailto:khalidzeeshan783@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="tel:+923267508852"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
   <a href="https://github.com/Zeeshan-783"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" /></a>
 </p>
 
-<!-- Profile Stats with Modern Design -->
+<!-- Profile Stats -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Zeeshan-783&label=Profile%20Views&color=8b5cf6&style=for-the-badge" />
   <img src="https://img.shields.io/github/followers/Zeeshan-783?label=Followers&logo=github&style=for-the-badge&color=8b5cf6" />
@@ -36,23 +39,18 @@
 
 ---
 
-## 👨‍💻 **About Me**
+## 👨‍💻 About Me
 
-<img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="150" />
-
-I am a passionate **full-stack developer** with expertise in the **MERN stack**, **React Native** mobile development, and **Make.com automation**. I build scalable web applications, cross-platform mobile apps, and automated business workflows that save time and increase efficiency.
+I am a passionate full-stack developer with expertise in the **MERN stack**, **React Native** mobile development, and workflow automation using **Make.com**. I build scalable web applications, cross-platform mobile apps, and automated business workflows that save time and increase efficiency.
 
 - 🔭 Currently building **AI-powered web & mobile solutions**
 - 🌟 Specialized in **MERN Stack**, **React Native**, and **Automation**
 - 🤖 Certified **Make.com** automation expert
-- 💡 Turning complex ideas into elegant, scalable applications
 - 📍 Based in Pakistan, working with clients worldwide
-
-<br />
 
 ---
 
-## 🛠️ **Tech Arsenal**
+## 🛠️ Tech Stack
 
 ### **Core Technologies**
 <p align="left">
@@ -82,66 +80,64 @@ I am a passionate **full-stack developer** with expertise in the **MERN stack**,
 
 ---
 
-## 🚀 **Featured Projects**
-
-<div align="center">
+## 🚀 Featured Projects
 
 ### **🤖 AI & Automation Projects**
 
-</div>
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+| **AI Project Architect** | Intelligent project scaffolding and architecture generation tool powered by AI | React, Supabase, Tailwind CSS, Loveable AI |
+| **JobAlign – AI Resume Matcher** | Chrome extension that uses AI to match resumes with job descriptions | Extension Dev, Web Scraping, HTML, Tailwind CSS |
 
-| Project | Description | Tech Stack | Preview |
-|--------|-------------|------------|---------|
-| **AI Project Architect** | Intelligent project scaffolding and architecture generation tool powered by AI | React, Supabase, Tailwind CSS, Loveable AI | <img src="https://img.shields.io/badge/-4_Images-6366f1?style=flat-square" /> |
-| **JobAlign – AI Resume Matcher** | Chrome extension that uses AI to match resumes with job descriptions | Extension Dev, Web Scraping, HTML, Tailwind CSS | <img src="https://img.shields.io/badge/-2_Images-6366f1?style=flat-square" /> |
+### **📱 Mobile Applications**
 
-<div align="center">
-  <br />
-  
-  ### **📱 Mobile Applications**
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+| **Passure (Password Manager)** | Secure password manager with local authentication and JWT | Flutter, Provider, Node.js, Express.js, MongoDB, JWT, Local Auth |
+| **Smart Scan App** | OCR-powered document scanner with ML Kit integration | React Native, SQLite, ML Kit OCR, Hooks |
+| **Finance Manager App** | SMS-based expense tracking with regex parsing & charts | React Native, SQLite, ContextApi, Chart, Regex |
 
-</div>
+### **💻 Web & Full-Stack Projects**
 
-| Project | Description | Tech Stack | Preview |
-|--------|-------------|------------|---------|
-| **Passure (Password Manager)** | Secure password manager with local authentication and JWT | Flutter, Provider, Node.js, Express.js, MongoDB, JWT, Local Auth | <img src="https://img.shields.io/badge/-7_Images-10b981?style=flat-square" /> |
-| **Smart Scan App** | OCR-powered document scanner with ML Kit integration | React Native, SQLite, ML Kit OCR, Hooks | <img src="https://img.shields.io/badge/-6_Images-10b981?style=flat-square" /> |
-| **Finance Manager App** | SMS-based expense tracking with regex parsing & charts | React Native, SQLite, ContextApi, Chart, Regex | <img src="https://img.shields.io/badge/-5_Images-10b981?style=flat-square" /> |
-
-<div align="center">
-  <br />
-  
-  ### **💻 Web & Full-Stack Projects**
-
-</div>
-
-| Project | Description | Tech Stack | Preview |
-|--------|-------------|------------|---------|
-| **Expense Manager System** | Complete expense tracking system with analytics | React, Node.js, Express.js, MongoDB | <img src="https://img.shields.io/badge/-6_Images-f59e0b?style=flat-square" /> |
-| **FomoFi – Crypto Mining Platform** | Modern crypto mining & rewards dashboard (Frontend) | Next.js, Tailwind CSS, Responsive Design | <img src="https://img.shields.io/badge/-7_Images-f59e0b?style=flat-square" /> |
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+| **Expense Manager System** | Complete expense tracking system with analytics | React, Node.js, Express.js, MongoDB |
+| **FomoFi – Crypto Mining Platform** | Modern crypto mining & rewards dashboard (Frontend) | Next.js, Tailwind CSS, Responsive Design |
 
 ---
 
-## 📊 **GitHub Analytics**
+## 📊 GitHub Analytics
 
+<!-- GitHub Stats Cards -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zeeshan-783&theme=radical&hide_border=true&background=0d1117&stroke=8b5cf6&ring=8b5cf6&fire=8b5cf6&currStreakNum=ffffff" width="48%" />
 </p>
 
+<!-- Language Stats -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeeshan-783&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=8b5cf6&langs_count=8" width="45%" />
   <img src="https://github-profile-trophy.vercel.app/?username=Zeeshan-783&theme=radical&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" width="52%" />
 </p>
 
-<!-- Activity Graph -->
+<!-- Contribution Graph - FIXED: Shows actual GitHub contribution data -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeeshan-783&theme=react-dark&hide_border=true&area=true&color=8b5cf6&point=8b5cf6&line=8b5cf6" width="95%" />
+  <img src="https://github-contribution-stats.vercel.app/api/?username=Zeeshan-783" width="95%" />
+</p>
+
+<!-- Alternative working contribution graph (this one actually shows real data) -->
+<p align="center">
+  <img src="https://ghchart.rshah.org/8b5cf6/Zeeshan-783" alt="Zeeshan-783's GitHub chart" width="95%" />
+</p>
+
+<!-- 3D Contribution Graph Alternative (works well) -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeeshan-783&theme=react-dark&hide_border=true&area=true&color=8b5cf6&point=8b5cf6&line=8b5cf6&bg_color=0d1117" width="95%" />
 </p>
 
 ---
 
-## 🤖 **Make.com Automation Expertise**
+## 🤖 Make.com Automation Expertise
 
 <p align="center">
   <img src="https://img.shields.io/badge/Certified_Make.com_Basics-0ea5e9?style=for-the-badge&logo=make&logoColor=white" />
@@ -158,7 +154,7 @@ I specialize in creating efficient automation workflows that save time and elimi
 
 ---
 
-## 📫 **Let's Connect**
+## 📫 Let's Connect
 
 <p align="center">
   <a href="mailto:khalidzeeshan783@gmail.com">
