@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faisal Arshad · mobile studio</title>
-    <!-- Font & icon sets (minimal) -->
+    <!-- Font & icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
@@ -34,10 +34,9 @@
         .inner {
             padding: 2.5rem 2rem;
         }
-        /* header banner emulation using gradient + wave feel */
         .hero {
             background: linear-gradient(125deg, #0a4b7a 0%, #1e7e5c 60%, #5b3b8c 100%);
-            border-radius: 2rem 2rem 2rem 2rem;
+            border-radius: 2rem;
             padding: 3rem 2rem 2.5rem 2rem;
             margin-bottom: 2rem;
             color: white;
@@ -86,7 +85,6 @@
             font-weight: 500;
             border: 1px solid rgba(255,255,255,0.2);
         }
-        /* typing bar – simplified as static highlight */
         .typing-tag {
             background: rgba(0,0,0,0.3);
             border-radius: 60px;
@@ -103,7 +101,6 @@
             color: #fcd34d;
             margin-right: 8px;
         }
-        /* contact row */
         .contact-row {
             display: flex;
             flex-wrap: wrap;
@@ -162,7 +159,6 @@
             display: inline-block;
             color: #0c4a6e;
         }
-        /* section titles */
         .section-title {
             font-size: 1.8rem;
             font-weight: 700;
@@ -200,76 +196,96 @@
         .tech-badge i {
             color: #2563eb;
         }
-        /* app grid & cards */
-        .app-grid {
+        /* project cards */
+        .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.2rem;
-            margin: 1.5rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.8rem;
+            margin: 2rem 0;
         }
-        .app-card {
+        .project-card {
             background: #ffffff;
             border: 1px solid #e9eef3;
-            border-radius: 24px;
-            padding: 1.2rem 0.8rem;
-            text-align: center;
-            box-shadow: 0 8px 15px -6px rgba(0,0,0,0.05);
-            transition: all 0.15s;
+            border-radius: 28px;
+            padding: 1.5rem 1.2rem;
+            box-shadow: 0 10px 18px -8px rgba(0,0,0,0.05);
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
         }
-        .app-card:hover {
+        .project-card:hover {
             border-color: #b1c3d8;
-            box-shadow: 0 20px 25px -12px rgba(0,115,230,0.15);
+            box-shadow: 0 24px 30px -14px rgba(0,115,230,0.12);
             transform: translateY(-4px);
         }
-        .app-icon {
-            width: 64px;
-            height: 64px;
-            border-radius: 18px;
-            margin: 0 auto 0.8rem;
-            background: #f1f4f9;
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.8rem;
+        }
+        .project-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        .project-date {
+            background: #eaf1fb;
+            border-radius: 30px;
+            padding: 0.2rem 0.9rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #0b4a7c;
+            white-space: nowrap;
+        }
+        .company {
+            font-weight: 500;
+            color: #2c3e50;
+            margin: 0.2rem 0 0.8rem;
             display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 1.8rem;
-            color: #1f2a44;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.02);
+            gap: 8px;
         }
-        .app-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 18px;
+        .company i {
+            color: #4f6f8f;
         }
-        .app-name {
-            font-weight: 700;
-            margin-bottom: 0.25rem;
+        .description {
+            color: #2d3c4c;
+            font-size: 0.95rem;
+            margin: 0.8rem 0 1rem;
+            flex: 1;
         }
-        .app-meta {
+        .skill-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.4rem;
-            margin: 0.6rem 0;
-            font-size: 0.7rem;
+            gap: 0.4rem 0.6rem;
+            margin: 0.8rem 0 1rem;
         }
-        .store-badge-small {
-            background: #2c3e50;
-            color: white;
-            padding: 0.2rem 0.6rem;
-            border-radius: 30px;
-            font-size: 0.7rem;
-            display: inline-block;
-            text-decoration: none;
+        .skill-tag {
+            background: #e4eaf2;
+            padding: 0.2rem 1rem;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
         }
-        .rating {
-            background: #fbbf24;
-            color: #1e293b;
-            padding: 0.2rem 0.7rem;
-            border-radius: 30px;
+        .preview-link {
+            color: #0f5fa3;
             font-weight: 600;
-            font-size: 0.75rem;
+            font-size: 0.9rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 0.5rem;
         }
-        /* featured repos */
+        .preview-link i {
+            font-size: 1rem;
+        }
+        hr {
+            border: none;
+            border-top: 2px dashed #d9e2ef;
+            margin: 2rem 0;
+        }
         .repo-row {
             display: flex;
             flex-wrap: wrap;
@@ -289,16 +305,13 @@
             align-items: center;
             gap: 6px;
             text-decoration: none;
-            flex: 0 1 auto;
         }
         .repo-card i {
             color: #24292e;
         }
         .repo-card:hover {
             background: #e6edf5;
-            border-color: #6f8fbb;
         }
-        /* github stats row */
         .stats-flex {
             display: flex;
             flex-wrap: wrap;
@@ -323,11 +336,6 @@
             margin: 0.2rem;
             border: 1px solid #b7d3f0;
         }
-        hr {
-            border: none;
-            border-top: 2px dashed #d9e2ef;
-            margin: 2rem 0;
-        }
         .footer-note {
             text-align: center;
             font-size: 1.2rem;
@@ -337,17 +345,12 @@
             border-radius: 60px;
             margin-top: 2rem;
         }
-        /* spacing */
-        .mt-2 { margin-top: 1rem; }
-        .mb-1 { margin-bottom: 0.5rem; }
-        .text-muted { color: #4b5b6b; }
-        i { margin-right: 4px; }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="inner">
-        <!-- Hero banner (modern wave interpretation) -->
+        <!-- Hero banner unchanged (personal info) -->
         <div class="hero">
             <div class="hero-content">
                 <h1>Faisal Arshad</h1>
@@ -355,168 +358,159 @@
                     <span>📱 Mobile App Engineer · 5+ Years</span>
                     <span>⚡ 10+ Published Apps</span>
                 </div>
-
-                <!-- Typing animation replacement (clean marquee style) -->
                 <div class="typing-tag">
-                    <i class="fa-regular fa-keyboard"></i> Cross‑platform · Native · FlutterFlow · Payments · CI/CD · Make.com automation
+                    <i class="fa-regular fa-keyboard"></i> React Native · Flutter · FlutterFlow · AI/ML Kit · Make.com
                 </div>
-
-                <!-- Contact row 1 -->
                 <div class="contact-row">
                     <a href="mailto:faisalarshadciit@gmail.com" class="badge-btn"><i class="fa-regular fa-envelope"></i> Email</a>
                     <a href="https://wa.me/+923088649850" class="badge-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
                     <a href="https://www.linkedin.com/in/faisal-arshad-bb5ab1153" class="badge-btn"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
                     <a href="https://twitter.com/faisalarshad850" class="badge-btn"><i class="fa-brands fa-x-twitter"></i> X</a>
                 </div>
-                <!-- Row 2 freelance -->
                 <div class="contact-row">
                     <a href="https://www.upwork.com/freelancers/~0143722ece1833a4ed" class="badge-btn"><i class="fa-brands fa-upwork"></i> Upwork</a>
                     <a href="https://www.fiverr.com/faisalarshad850" class="badge-btn"><i class="fa-brands fa-fiverr"></i> Fiverr</a>
                 </div>
-
-                <!-- profile badges -->
                 <div class="profile-badges">
                     <span><i class="fa-regular fa-star"></i> 130+ GitHub stars</span>
                     <span><i class="fa-regular fa-user"></i> 20+ followers</span>
                     <span><i class="fa-regular fa-eye"></i> 4.2k profile views</span>
                 </div>
-
-                <!-- callout -->
                 <div style="margin-top: 1.8rem;">
                     <span class="cta-box"><i class="fa-regular fa-hand-point-right"></i> Open for freelance & full‑time opportunities 🚀</span>
                 </div>
             </div>
         </div>
 
-        <!-- about section simplified -->
-        <div style="display: flex; flex-wrap: wrap; gap: 1.8rem; margin: 1.8rem 0 0.5rem;">
-            <div style="flex: 2; min-width: 280px;">
-                <h2 class="section-title"><i class="fa-regular fa-user"></i> about</h2>
-                <p style="font-size: 1.1rem; color: #1e293b;">👨‍💻 Mobile developer with <strong>5+ years</strong> building cross‑platform & native apps (Flutter, FlutterFlow, Android/Kotlin, Swift, KMP). Skilled in <strong>payment integrations, monetization (RevenueCat, Qonversion, AdMob)</strong>, and fast prototyping. Published 10+ apps serving thousands of users daily. Certified Make.com automation specialist.</p>
-                <p style="margin-top: 0.8rem;">✨ <em>“I build apps that are fast, reliable, and delightful to use.”</em></p>
-            </div>
+        <!-- short about -->
+        <div style="margin: 1.8rem 0 0.5rem;">
+            <h2 class="section-title"><i class="fa-regular fa-user"></i> about</h2>
+            <p style="font-size: 1.1rem; color: #1e293b;">👨‍💻 Mobile developer with <strong>5+ years</strong> building cross‑platform & native apps (React Native, Flutter, Android, iOS). Skilled in <strong>AI/ML Kit, SMS parsing, revenue models</strong>, and fast prototyping. Certified Make.com automation specialist. Currently focused on React Native and intelligent mobile solutions.</p>
         </div>
 
-        <!-- tech stack (condensed but complete) -->
-        <h2 class="section-title"><i class="fa-solid fa-code"></i> tech stack</h2>
+        <!-- tech stack (quick) -->
+        <h2 class="section-title"><i class="fa-solid fa-code"></i> core stack</h2>
         <div class="badge-cloud">
-            <span class="tech-badge"><i class="fa-brands fa-java"></i> Java</span>
-            <span class="tech-badge"><i class="fa-solid fa-leaf"></i> Kotlin</span>
-            <span class="tech-badge"><i class="fa-brands fa-dart"></i> Dart</span>
-            <span class="tech-badge"><i class="fa-brands fa-swift"></i> Swift</span>
+            <span class="tech-badge"><i class="fa-brands fa-react"></i> React Native</span>
             <span class="tech-badge"><i class="fa-brands fa-flutter"></i> Flutter</span>
-            <span class="tech-badge"><i class="fa-solid fa-water"></i> FlutterFlow</span>
-            <span class="tech-badge"><i class="fa-brands fa-android"></i> Android</span>
-            <span class="tech-badge"><i class="fa-brands fa-apple"></i> iOS</span>
-            <span class="tech-badge"><i class="fa-solid fa-cube"></i> Provider</span>
-            <span class="tech-badge"><i class="fa-solid fa-bolt"></i> GetX</span>
-            <span class="tech-badge"><i class="fa-solid fa-droplet"></i> Riverpod</span>
+            <span class="tech-badge"><i class="fa-solid fa-database"></i> SQLite</span>
             <span class="tech-badge"><i class="fa-solid fa-fire"></i> Firebase</span>
-            <span class="tech-badge"><i class="fa-solid fa-database"></i> Supabase</span>
-            <span class="tech-badge"><i class="fa-solid fa-chart-line"></i> RevenueCat</span>
-            <span class="tech-badge"><i class="fa-solid fa-bell"></i> OneSignal</span>
-            <span class="tech-badge"><i class="fa-solid fa-credit-card"></i> Stripe</span>
-            <span class="tech-badge"><i class="fa-regular fa-credit-card"></i> Google Pay</span>
-            <span class="tech-badge"><i class="fa-brands fa-apple-pay"></i> Apple Pay</span>
-            <span class="tech-badge"><i class="fa-solid fa-wallet"></i> JazzCash</span>
-            <span class="tech-badge"><i class="fa-brands fa-git-alt"></i> Git</span>
-            <span class="tech-badge"><i class="fa-brands fa-github"></i> GitHub</span>
-            <span class="tech-badge"><i class="fa-brands fa-gitlab"></i> GitLab</span>
-            <span class="tech-badge"><i class="fa-brands fa-jira"></i> Jira</span>
-            <span class="tech-badge"><i class="fa-brands fa-figma"></i> Figma</span>
-            <span class="tech-badge"><i class="fa-brands fa-android-studio"></i> Android Studio</span>
-            <span class="tech-badge"><i class="fa-brands fa-xcode"></i> Xcode</span>
-            <span class="tech-badge"><i class="fa-solid fa-rocket"></i> GitHub Actions</span>
-            <span class="tech-badge"><i class="fa-solid fa-bolt"></i> Shorebird</span>
-            <span class="tech-badge"><i class="fa-solid fa-robot"></i> Make.com</span>
+            <span class="tech-badge"><i class="fa-solid fa-brain"></i> ML Kit</span>
+            <span class="tech-badge"><i class="fa-regular fa-image"></i> OCR</span>
+            <span class="tech-badge"><i class="fa-brands fa-google"></i> Gemini AI</span>
+            <span class="tech-badge"><i class="fa-solid fa-chart-simple"></i> ContextApi</span>
+            <span class="tech-badge"><i class="fa-solid fa-chart-line"></i> Chart</span>
+            <span class="tech-badge"><i class="fa-regular fa-message"></i> SMS</span>
+            <span class="tech-badge"><i class="fa-solid fa-crop"></i> Document scanner</span>
         </div>
 
-        <!-- published apps summary + grid -->
-        <h2 class="section-title"><i class="fa-solid fa-mobile-screen"></i> published apps (10+ total)</h2>
-        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
-            <span class="tech-badge" style="background:#dbeafe;"><i class="fa-brands fa-google-play"></i> 200K+ Installs</span>
-            <span class="tech-badge" style="background:#dbeafe;"><i class="fa-regular fa-star"></i> 4.6★ avg (6K+ reviews)</span>
+        <!-- PROJECTS SECTION (replacing old apps) -->
+        <h2 class="section-title"><i class="fa-regular fa-folder-open"></i> featured projects</h2>
+        <div class="project-grid">
+
+            <!-- Finance Manager (SMS Parsing) -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-name">Finance Manager (SMS Parsing)</span>
+                    <span class="project-date">Apr 2025 - Jun 2025</span>
+                </div>
+                <div class="company">
+                    <i class="fa-regular fa-building"></i> Atrule Technologies
+                </div>
+                <div class="description">
+                    React Native app that automatically tracks finances by reading SMS. Extracts transaction details using built-in/custom regex, lets you approve & categorize, displays income/expenses per account. Visualize spending with charts, manage multiple accounts.
+                </div>
+                <div class="skill-list">
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">ContextApi</span>
+                    <span class="skill-tag">Chart</span>
+                    <span class="skill-tag">Regex</span>
+                </div>
+                <a href="#" class="preview-link"><i class="fa-regular fa-eye"></i> App Preview</a>
+            </div>
+
+            <!-- Smart Scan App -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-name">Smart Scan App</span>
+                    <span class="project-date">Feb 2025 - Apr 2025</span>
+                </div>
+                <div class="company">
+                    <i class="fa-regular fa-building"></i> Atrule Technologies
+                </div>
+                <div class="description">
+                    Multifunctional React Native app: barcode/QR scanning (ML Kit + Barcode Mask), OCR text extraction, document scanning, image crop, HTML→PDF, rich text editor (Tentap), and SMS chat interface. All-in-one scanning & communication tool.
+                </div>
+                <div class="skill-list">
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">SQLite</span>
+                    <span class="skill-tag">ML Kit</span>
+                    <span class="skill-tag">OCR</span>
+                    <span class="skill-tag">Hooks</span>
+                </div>
+                <a href="#" class="preview-link"><i class="fa-regular fa-eye"></i> App Preview</a>
+            </div>
+
+            <!-- AI Travel Planner UI -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-name">AI Travel Planner UI</span>
+                    <span class="project-date">Jan 2025</span>
+                </div>
+                <!-- no company mention, keep minimal -->
+                <div class="description">
+                    Clean, modern travel planner interface built with React Native. Focus on smooth styles and component architecture. (UI concept)
+                </div>
+                <div class="skill-list">
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Styles</span>
+                </div>
+                <a href="#" class="preview-link"><i class="fa-regular fa-image"></i> Main Screens</a>
+            </div>
+
+            <!-- Fruit Identification (Gemini AI) + Weather Forecast -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-name">Fruit ID (Gemini AI) & Weather</span>
+                    <span class="project-date">Nov 2024 - Dec 2024</span>
+                </div>
+                <div class="company">
+                    <i class="fa-regular fa-building"></i> National College Of Business Administration & Economics
+                </div>
+                <div class="description">
+                    Uses Gemini AI for real‑time fruit identification via images, plus WeatherAPI for forecasts. Firebase Auth & Firestore store user fruit data. React Native, Gemini, WeatherApi.
+                </div>
+                <div class="skill-list">
+                    <span class="skill-tag">React Native</span>
+                    <span class="skill-tag">Google Gemini</span>
+                    <span class="skill-tag">WeatherApi</span>
+                    <span class="skill-tag">Firebase</span>
+                </div>
+                <a href="#" class="preview-link"><i class="fa-regular fa-eye"></i> App Preview</a>
+            </div>
         </div>
 
-        <div class="app-grid">
-            <!-- Kivora -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/Th7gvhrIMUAleNekY22tEY4JDe5EavV2xyA0t6z8zDcnhP_iG1uyXWFq9HBb_jhke90=w240-h480" alt="Kivora"></div>
-                <div class="app-name">Kivora – Trading Mindset</div>
-                <div class="app-meta"><span class="rating">5.0★</span><span>1K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Market Countdown -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/tU7NVq3N_BtfVvlHUtcOpFs3D-9s7TXg4or_G9p2z5jbAzl63NZNZoG41MO50XJ0kg=w240-h480" alt="Market Countdown"></div>
-                <div class="app-name">Market Countdown Times</div>
-                <div class="app-meta"><span class="rating">4.96★</span><span>5K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- MarketBeats -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/DZftg28SuucshlLeWKvzCDfYwFm7ucUbY0Zv-bcDdP-M7_7AeIoqq_ZkyRK7b1_ZQRE=w240-h480" alt="MarketBeats"></div>
-                <div class="app-name">MarketBeats – Activity</div>
-                <div class="app-meta"><span class="rating">5.0★</span><span>5K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Market Opens -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/B3NMFWjUx5B5iXyHLOC1_o70Thzq0XCLQEkp2bt3CCKkhHKOjhE6_ycKj1qMTJhMlHo=w240-h480" alt="Market Opens"></div>
-                <div class="app-name">Market Opens</div>
-                <div class="app-meta"><span class="rating">4.7★</span><span>10K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Pakistan Petrol Price -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/ydoQ92cr0Z_PHVXur-YuVvRSNbi46DzqH35tQ19I4nWuCGs9d0_4BpOkP09vT4IxEg=w240-h480" alt="Petrol Price"></div>
-                <div class="app-name">Pakistan Petrol Price</div>
-                <div class="app-meta"><span class="rating">4.5★</span><span>100K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Pakistani Brands -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/3DlnF-fz8otJnyX6poWXHaiM8qPWDiiMdiSWwXnhNKkPcWoo00E4Jf8rLCCl0q8be4M=w240-h480" alt="Pakistani Brands"></div>
-                <div class="app-name">Pakistani Brands</div>
-                <div class="app-meta"><span class="rating">4.1★</span><span>5K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Motorway Conditions -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/kdQxi_pECUJQbMop-Aid-H4xc88eHplmhELPO4S31lkecDMnlk_0xVMwZMdIb13qmQ=w240-h480" alt="Motorway Conditions"></div>
-                <div class="app-name">Motorway Road Conditions</div>
-                <div class="app-meta"><span class="rating">4.6★</span><span>10K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-            <!-- Moye Moye -->
-            <div class="app-card">
-                <div class="app-icon"><img src="https://play-lh.googleusercontent.com/DTQJK3HLPx539hWwb_-DqPph34qrUql9d5ynuST6WepHMe42Z73xr5HV5eHVQX5JDU0=w240-h480" alt="Moye Moye"></div>
-                <div class="app-name">Moye Moye – Weather Fun</div>
-                <div class="app-meta"><span class="rating">5.0★</span><span>1K+</span></div>
-                <div><a href="#" class="store-badge-small">Google</a> <a href="#" class="store-badge-small">App Store</a></div>
-            </div>
-        </div>
-        <p class="text-muted" style="margin-top: -0.5rem;">➕ many more: STINU, Position Pal, FX Meter, Aajizz, Food Calories, Pakistan Quotes, LylaCart…</p>
+        <!-- additional note: all projects listed above replace previous apps -->
+        <p style="margin-top: -0.5rem; color:#336699"><i class="fa-regular fa-circle-check"></i> Full project details available on request — each with published code/demo.</p>
 
-        <!-- featured repositories -->
-        <h2 class="section-title"><i class="fa-regular fa-folder-open"></i> featured repositories</h2>
+        <!-- Featured repositories (light) -->
+        <h2 class="section-title"><i class="fa-regular fa-folder-open"></i> open source</h2>
         <div class="repo-row">
             <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> QRCode-Generator-Android</a>
             <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> Flutter-FoodDelivery-UI</a>
             <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> WeatherApp-Flutter</a>
             <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> LinkedIn-Post-Fetcher</a>
-            <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> EventBooking-UI-Flutter</a>
-            <a href="#" class="repo-card"><i class="fa-brands fa-github"></i> GoogleAdMob-Flutter</a>
         </div>
 
-        <!-- github stats (cards simulated) -->
-        <h2 class="section-title"><i class="fa-regular fa-chart-bar"></i> GitHub stats</h2>
+        <!-- github stats summary -->
+        <h2 class="section-title"><i class="fa-regular fa-chart-bar"></i> GitHub activity</h2>
         <div class="stats-flex">
             <div class="stat-item"><i class="fa-regular fa-rectangle-ad"></i> 12 public repos</div>
             <div class="stat-item"><i class="fa-regular fa-star"></i> 130+ stars</div>
-            <div class="stat-item"><i class="fa-regular fa-calendar"></i> 480+ contributions (last year)</div>
+            <div class="stat-item"><i class="fa-regular fa-calendar"></i> 480+ contributions</div>
         </div>
-        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center;">
+        <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=faisalarshadciit&layout=compact&theme=graywhite&hide_border=true" alt="languages" style="border-radius: 20px; border:1px solid #e0e8f0;">
             <img src="https://github-readme-streak-stats.herokuapp.com?user=faisalarshadciit&theme=default&hide_border=true" alt="streak" style="border-radius: 20px; border:1px solid #e0e8f0;">
         </div>
@@ -527,10 +521,9 @@
             <div class="cert-badge"><i class="fa-regular fa-badge-check" style="color:#0a7e3a;"></i> Make.com Basics</div>
             <div class="cert-badge"><i class="fa-regular fa-badge-check" style="color:#0a7e3a;"></i> Make.com Foundation</div>
         </div>
-        <p style="margin-top: 0.5rem;"><i class="fa-regular fa-circle-check" style="color:#0f7b3a;"></i> Certified in workflow automation, control flow, and data integration.</p>
         <hr>
         <div class="footer-note">
-            “Let’s build something fast, beautiful, and reliable.” <i class="fa-regular fa-hand-peace"></i>
+            “Let’s build something fast, beautiful, and intelligent.” <i class="fa-regular fa-hand-peace"></i>
         </div>
     </div>
 </div>
