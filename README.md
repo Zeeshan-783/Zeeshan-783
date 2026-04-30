@@ -36,29 +36,49 @@ Available   Remote · Hybrid · On-site · Freelance
 ### Tech Stack
 
 **Frontend**
-```
-React   Next.js   TypeScript   JavaScript   Tailwind CSS   HTML5   CSS3
-```
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-1a1a1a?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1a1a1a?style=flat-square&logo=css3&logoColor=white" />
+</p>
 
 **Backend**
-```
-Node.js   Express.js   MongoDB   MySQL   GraphQL   REST APIs   Cron Jobs   Webhooks
-```
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-111111?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-1a1a1a?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-111111?style=flat-square&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20APIs-222222?style=flat-square&logo=fastapi&logoColor=white" />
+</p>
 
 **Mobile**
-```
-React Native   SQLite   Firebase   ML Kit   OCR   SMS Parsing   Barcode/QR Scanning
-```
 
-**Automation**
-```
-Make.com   n8n   Monday.com   Telegram Bot API   OpenAI API   Zapier-style Workflows
-```
+<p>
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-111111?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-1a1a1a?style=flat-square&logo=firebase&logoColor=white" />
+  <img src="https://img.shields.io/badge/ML%20Kit-111111?style=flat-square&logo=google&logoColor=white" />
+</p>
 
-**Cloud & DevOps**
-```
-Docker   Vercel   Netlify   Cloudflare Workers   GitHub Actions
-```
+**Automation & Cloud**
+
+<p>
+  <img src="https://img.shields.io/badge/Make.com-000000?style=flat-square&logo=make&logoColor=white" />
+  <img src="https://img.shields.io/badge/n8n-111111?style=flat-square&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/Monday.com-1a1a1a?style=flat-square&logo=monday&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-1a1a1a?style=flat-square&logo=netlify&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-111111?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-222222?style=flat-square&logo=cloudflare&logoColor=white" />
+</p>
 
 ---
 
@@ -77,16 +97,28 @@ Docker   Vercel   Netlify   Cloudflare Workers   GitHub Actions
 
 ### Projects
 
+#### 💻 Web & Full-Stack
+
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **Pakistan Service Hub** | Mobile platform for Pakistani gov & public services with bookmarking and in-app browsing | React Native · Node.js · MongoDB |
-| **Finance Manager** | Auto-tracks finances via SMS parsing; regex rule engine, multi-account balances, charts | React Native · TypeScript · SQLite |
-| **Smart Scan App** | OCR scanner with QR/barcode reading, image-to-PDF, multi-language translation | React Native · ML Kit · OCR |
-| **Expense Management System** | Internal Atrule tool — multi-user approval workflows and monthly financial reporting | MERN · JWT · Tailwind |
-| **Time Tracking App** | Monday.com-integrated tracker with cron-based daily roll-ups and live GraphQL dashboards | React · Node.js · Monday.com SDK |
-| **FomoFi – Crypto Platform** | Frontend for a crypto rewards and mining dashboard | Next.js · TypeScript · Tailwind |
-| **Job Align (Chrome Extension)** | Real-time job description scraper for LinkedIn, Indeed, Glassdoor + UX redesign | Manifest V3 · TypeScript · React |
-| **Make.com & n8n Library** | Production blueprints — recruitment, HRMS chatbot, Telegram bot, AI Knowledge Agent | Make.com · n8n · OpenAI API |
+| **Expense Management System** | Internal Atrule tool — multi-user approval workflows and monthly financial reporting | ![MongoDB](https://img.shields.io/badge/-MongoDB-111?style=flat-square&logo=mongodb&logoColor=white) ![Express](https://img.shields.io/badge/-Express-111?style=flat-square&logo=express&logoColor=white) ![React](https://img.shields.io/badge/-React-111?style=flat-square&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-111?style=flat-square&logo=node.js&logoColor=white) |
+| **Time Tracking App** | Monday.com-integrated tracker with cron-based daily roll-ups and live GraphQL dashboards | ![React](https://img.shields.io/badge/-React-111?style=flat-square&logo=react&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-111?style=flat-square&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-111?style=flat-square&logo=node.js&logoColor=white) |
+| **FomoFi – Crypto Platform** | Frontend for a crypto rewards and mining dashboard | ![Next.js](https://img.shields.io/badge/-Next.js-111?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-111?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-111?style=flat-square&logo=tailwindcss&logoColor=white) |
+| **Job Align (Chrome Extension)** | Real-time job description scraper for LinkedIn, Indeed, Glassdoor + UX redesign | ![Chrome](https://img.shields.io/badge/-Manifest%20V3-111?style=flat-square&logo=googlechrome&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-111?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/-React-111?style=flat-square&logo=react&logoColor=white) |
+
+#### 📱 Mobile Apps
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **Pakistan Service Hub** | Centralized mobile platform for Pakistani gov & public services with bookmarking and in-app browsing | ![React Native](https://img.shields.io/badge/-React%20Native-111?style=flat-square&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-111?style=flat-square&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-111?style=flat-square&logo=mongodb&logoColor=white) |
+| **Finance Manager** | Auto-tracks finances via SMS parsing; regex rule engine, multi-account balances, charts | ![React Native](https://img.shields.io/badge/-React%20Native-111?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-111?style=flat-square&logo=typescript&logoColor=white) ![SQLite](https://img.shields.io/badge/-SQLite-111?style=flat-square&logo=sqlite&logoColor=white) |
+| **Smart Scan App** | OCR scanner with QR/barcode reading, image-to-PDF, multi-language translation | ![React Native](https://img.shields.io/badge/-React%20Native-111?style=flat-square&logo=react&logoColor=white) ![ML Kit](https://img.shields.io/badge/-ML%20Kit-111?style=flat-square&logo=google&logoColor=white) |
+
+#### ⚙️ Automation
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **Make.com & n8n Library** | Production blueprints — recruitment automation, HRMS chatbot, Telegram bot integration, AI Knowledge Agent, stock video generation | ![Make.com](https://img.shields.io/badge/-Make.com-111?style=flat-square&logo=make&logoColor=white) ![n8n](https://img.shields.io/badge/-n8n-111?style=flat-square&logo=n8n&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI-111?style=flat-square&logo=openai&logoColor=white) |
 
 ---
 
@@ -105,7 +137,7 @@ Make.com Basics                   —   Dec 2025
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&icon_color=888888&text_color=aaaaaa&border_radius=8" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&hide=prs,issues,contribs&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&icon_color=888888&text_color=aaaaaa&border_radius=8&rank_icon=github&disable_animations=false" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Zeeshan-783&theme=github-dark-blue&hide_border=true&background=0d0d0d&ring=ffffff&fire=888888&currStreakNum=ffffff&sideNums=aaaaaa&currStreakLabel=888888&sideLabels=888888&dates=555555&border_radius=8" width="48%" />
 </p>
 
@@ -113,8 +145,10 @@ Make.com Basics                   —   Dec 2025
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeeshan-783&layout=compact&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&text_color=aaaaaa&langs_count=8&border_radius=8" width="42%" />
 </p>
 
+**Contribution Graph**
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeeshan-783&theme=github-compact&hide_border=true&area=true&color=888888&line=aaaaaa&point=ffffff&bg_color=0d0d0d" width="95%" />
+  <img src="https://ghchart.rshah.org/888888/Zeeshan-783" alt="Contribution Graph" width="95%" />
 </p>
 
 ---
