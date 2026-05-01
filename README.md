@@ -146,14 +146,7 @@ Make.com Basics                   —   Dec 2025
 </p>
 
 **Contribution Graph**
-**Contribution Graph**
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/00ff88/Zeeshan-783" alt="Contribution Graph" width="95%" />
-</p>
-
 **Snake**
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zeeshan-783/Zeeshan-783/output/github-contribution-grid-snake-dark.svg" width="95%" />
 </p>
