@@ -146,12 +146,17 @@ Make.com Basics                   —   Dec 2025
 </p>
 
 **Contribution Graph**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&icon_color=00ff88&text_color=aaaaaa&border_radius=8" width="95%" />
-</p>
+**Contribution Graph**
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Zeeshan-783/Zeeshan-783/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="95%" /></p>
+  <img src="https://ghchart.rshah.org/00ff88/Zeeshan-783" alt="Contribution Graph" width="95%" />
+</p>
+
+**Snake**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zeeshan-783/Zeeshan-783/output/github-contribution-grid-snake-dark.svg" width="95%" />
+</p>
 
 ---
 
