@@ -147,7 +147,7 @@ Make.com Basics                   —   Dec 2025
 
 **Contribution Graph**
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeeshan-783&bg_color=0d0d0d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true&area_color=1a3a2a&radius=8" width="95%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d0d0d&title_color=ffffff&icon_color=00ff88&text_color=aaaaaa&border_radius=8" width="95%" />
 </p>
 
 <p align="center">
