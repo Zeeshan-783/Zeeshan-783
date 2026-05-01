@@ -1,9 +1,11 @@
-name: Generate Snake
-
+name: Generate Snake & Stats
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -13,8 +15,18 @@ jobs:
         with:
           github_user_name: Zeeshan-783
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=00ff88&color_dots=#0d0d0d,#1a3a2a,#1f6b3a,#28a745,#00ff88
             dist/github-contribution-grid-snake-dark.svg?color_snake=00ff88&color_dots=#0d0d0d,#1a3a2a,#1f6b3a,#28a745,#00ff88
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Generate Stats Image
+        uses: Readme-Workflows/github-stats-transparent@v2.4.2
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          FILENAME: dist/stats
+          INCLUDE_PRIVATE: true
+          CHART_TYPE: calendar
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
