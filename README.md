@@ -146,6 +146,9 @@ Make.com Basics                   —   Dec 2025
 </p>
 
 **Contribution Graph**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Zeeshan-783&bg_color=0d0d0d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true&area_color=1a3a2a&radius=8" width="95%" />
+</p>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Zeeshan-783/Zeeshan-783/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="95%" /></p>
