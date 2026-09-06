@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+<img src="https://img.shields.io/github/followers/Zeeshan-783?style=for-the-badge&label=Followers&color=2c5364&logo=github" />
+</p>
+
+<p align="center">
 <a href="mailto:khalidzeeshan783@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
 <a href="https://wa.me/923267508852"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" /></a>
 <a href="https://x.com/ZeeshanKhalidDV"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" /></a>
@@ -30,7 +34,7 @@
 
 ## About
 
-Full-stack developer specializing in **React Native / Expo** on mobile and **Node.js / Fastify** on the backend, with a growing focus on **live video (AWS IVS), computer vision, and identity verification**. 2+ years professional experience across 3 companies, 12+ shipped projects, and 5 Make.com automation certifications.
+Hey there! 👋 I'm a full-stack developer specializing in **React Native / Expo** on mobile and **Node.js / Fastify** on the backend, with a growing focus on **live video (AWS IVS), computer vision, and identity verification**. 2+ years professional experience across 3 companies, 12+ shipped projects, and 5 Make.com automation certifications.
 
 Currently building **JUU** — a football talent-discovery platform with AWS IVS live broadcasting, multi-camera synchronized footage review, and on-device computer vision for player verification.
 
@@ -157,6 +161,10 @@ Currently building **JUU** — a football talent-discovery platform with AWS IVS
 
 ## Certifications
 
+<details>
+<summary>Show certifications</summary>
+<br />
+
 | Certification | Issuer | Date |
 |---|---|---|
 | AI Automation Explorer | Make Academy | Feb 2026 |
@@ -165,9 +173,15 @@ Currently building **JUU** — a football talent-discovery platform with AWS IVS
 | Foundation | Make Academy | Dec 2025 |
 | Basics | Make Academy | Dec 2025 |
 
+</details>
+
 <br />
 
 ## Stats
+
+<details>
+<summary>Show GitHub stats & activity</summary>
+<br />
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Zeeshan-783&show_icons=true&hide=prs,issues,contribs&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_radius=10&rank_icon=github" width="48%" />
@@ -181,6 +195,8 @@ Currently building **JUU** — a football talent-discovery platform with AWS IVS
 <p align="center">
 <img src="https://raw.githubusercontent.com/Zeeshan-783/Zeeshan-783/output/github-contribution-grid-snake-dark.svg" width="95%" />
 </p>
+
+</details>
 
 <br />
 
